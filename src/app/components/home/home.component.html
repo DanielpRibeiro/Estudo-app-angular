@@ -1,0 +1,14 @@
+<p>homeeeeeeeeeee</p>
+<app-footer></app-footer>
+
+<h1>{{ name }}</h1>
+
+<img [src]="fotoUrl"/>
+
+<button (click)="teste()"> clique aqui</button>
+
+@for(item of lista; track item) {
+    <p>{{item}}</p>
+} @empty {
+    <p>nada otario!!</p>
+}
